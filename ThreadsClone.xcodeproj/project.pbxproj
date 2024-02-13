@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16BD739A2B7BC17F00197442 /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BD73992B7BC17F00197442 /* ThreadCell.swift */; };
 		16FAB4692B7757BE00D0375D /* ThreadsCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FAB4682B7757BE00D0375D /* ThreadsCloneApp.swift */; };
 		16FAB46B2B7757BE00D0375D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FAB46A2B7757BE00D0375D /* ContentView.swift */; };
 		16FAB46D2B7757BF00D0375D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16FAB46C2B7757BF00D0375D /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16BD73992B7BC17F00197442 /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
 		16FAB4652B7757BE00D0375D /* ThreadsClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreadsClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16FAB4682B7757BE00D0375D /* ThreadsCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsCloneApp.swift; sourceTree = "<group>"; };
 		16FAB46A2B7757BE00D0375D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				16FAB48D2B776A6700D0375D /* FeedView.swift */,
+				16BD73992B7BC17F00197442 /* ThreadCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				16FAB4852B775A2900D0375D /* ThreadsButtonModifier.swift in Sources */,
 				16FAB48A2B77688B00D0375D /* ThreadsTabView.swift in Sources */,
 				16FAB4832B7759CC00D0375D /* ThreadsTextFieldModifier.swift in Sources */,
+				16BD739A2B7BC17F00197442 /* ThreadCell.swift in Sources */,
 				16FAB4812B77589600D0375D /* LoginView.swift in Sources */,
 				16FAB4872B775BEA00D0375D /* RegistrationView.swift in Sources */,
 				16FAB46B2B7757BE00D0375D /* ContentView.swift in Sources */,
