@@ -33,7 +33,7 @@ struct ThreadCell: View {
                         }
                     }
                         
-                    Text("King of Undead in World of Warcraft.")
+                    Text("I see... only darkness before me.")
                         .font(.footnote)
                         .multilineTextAlignment(.leading)
                     

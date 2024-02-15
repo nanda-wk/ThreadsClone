@@ -16,7 +16,7 @@ struct UserCell: View {
                 Text("lichling_1")
                     .fontWeight(.semibold)
                 
-                Text("Arthus")
+                Text("Arthas Menethil")
             }
             .font(.footnote)
             

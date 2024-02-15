@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16B2738F2B7E3B39001F0704 /* ProfileThreadFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B2738E2B7E3B39001F0704 /* ProfileThreadFilter.swift */; };
 		16BD739A2B7BC17F00197442 /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BD73992B7BC17F00197442 /* ThreadCell.swift */; };
 		16BD739D2B7BCB6500197442 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BD739C2B7BCB6500197442 /* CircularImageView.swift */; };
 		16BD739F2B7BCBE300197442 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BD739E2B7BCBE300197442 /* UserCell.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16B2738E2B7E3B39001F0704 /* ProfileThreadFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileThreadFilter.swift; sourceTree = "<group>"; };
 		16BD73992B7BC17F00197442 /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
 		16BD739C2B7BCB6500197442 /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
 		16BD739E2B7BCBE300197442 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
@@ -58,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16B2738D2B7E3B28001F0704 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16B2738E2B7E3B39001F0704 /* ProfileThreadFilter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		16BD739B2B7BCB5400197442 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +271,7 @@
 		16FAB49B2B776B1300D0375D /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				16B2738D2B7E3B28001F0704 /* Model */,
 				16FAB49C2B776B2A00D0375D /* View */,
 			);
 			path = Profile;
@@ -347,6 +358,7 @@
 				16FAB49A2B776B0B00D0375D /* ActivityView.swift in Sources */,
 				16FAB4962B776AD900D0375D /* CreateThreadView.swift in Sources */,
 				16FAB48E2B776A6700D0375D /* FeedView.swift in Sources */,
+				16B2738F2B7E3B39001F0704 /* ProfileThreadFilter.swift in Sources */,
 				16FAB4922B776AA800D0375D /* ExploreView.swift in Sources */,
 				16FAB49E2B776B2F00D0375D /* ProfileView.swift in Sources */,
 				16FAB4852B775A2900D0375D /* ThreadsButtonModifier.swift in Sources */,
