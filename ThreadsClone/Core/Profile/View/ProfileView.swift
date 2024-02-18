@@ -9,12 +9,18 @@ import SwiftUI
 
 struct ProfileView: View {
     
+    @StateObject var viewModel = ProfileViewModel()
+    
     @State private var selectedFilter: ProfileThreadFilter = .threads
     @Namespace var animation
     
     private var filterBarWidth: CGFloat {
         let count = CGFloat(ProfileThreadFilter.allCases.count)
         return UIScreen.main.bounds.width / count - 20
+    }
+    
+    private var currentUser: User? {
+        return viewModel.currentUser
     }
     
     var body: some View {
@@ -28,16 +34,18 @@ struct ProfileView: View {
                             
                             // MARK - fullname and username
                             VStack(alignment: .leading, spacing: 4) {
-                                Text("Arthas Menethil")
+                                Text(currentUser?.fullName ?? "")
                                     .font(.title2)
                                     .fontWeight(.semibold)
                                 
-                                Text("lich_king")
+                                Text(currentUser?.username ?? "")
                                     .font(.subheadline)
                             }
                             
-                            Text("The prince of Lordaeron and the only son of Terenas Menethil II.")
-                                .font(.footnote)
+                            if let bio = currentUser?.bio {
+                                Text(bio)
+                                    .font(.footnote)
+                            }
                             
                             Text("2 follower")
                                 .font(.caption)
